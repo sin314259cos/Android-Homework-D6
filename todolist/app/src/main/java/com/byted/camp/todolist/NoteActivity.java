@@ -102,7 +102,8 @@ public class NoteActivity extends AppCompatActivity {
         values.put(TodoNote.COLUMN_STATE, State.TODO.intValue);
         values.put(TodoNote.COLUMN_DATE, System.currentTimeMillis());
         values.put(TodoNote.COLUMN_PRIORITY, priority.intValue);
-        return true;
+        long rowId = database.insert(TodoNote.TABLE_NAME, null, values);
+        return rowId != -1;
     }
 
     private Priority getSelectedPriority() {

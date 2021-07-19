@@ -5,31 +5,33 @@
     build-mode="COLD"
     density="440dpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.4.1"
-    timestamp="1626677467014"
+    timestamp="1626690925161"
     token="6607079508462562102"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="250" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="63" />
     <task
         name="verifier"
-        duration="0" />
+        duration="47" />
+
+    <artifact
+        location="D:\learning\Android_File\Chapter 6\todolist\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1626677006027"
+        timestamp="1626690776264"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="D:\learning\Android_File\Chapter 6\todolist\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
         <artifact
             location="D:\learning\Android_File\Chapter 6\todolist\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
@@ -55,6 +57,9 @@
             location="D:\learning\Android_File\Chapter 6\todolist\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
+            location="D:\learning\Android_File\Chapter 6\todolist\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
             location="D:\learning\Android_File\Chapter 6\todolist\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
@@ -70,15 +75,11 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1626677122292"
+        timestamp="1626690925161"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\learning\Android_File\Chapter 6\todolist\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
     </build>
-    <build
-        build-mode="COLD"
-        timestamp="1626677467014"
-        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
